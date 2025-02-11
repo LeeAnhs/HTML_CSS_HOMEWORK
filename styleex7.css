@@ -1,0 +1,30 @@
+.box{
+    width: 500px; ;
+    height: 50px;
+    border: 2px solid green;
+    text-align: center;
+}
+.insidebox{
+    padding: 10px;
+    background-color: rgb(236, 231, 224);
+    margin-top: 10px;
+    width: 650px;
+    height: 150px;
+    border-left: 10px solid rgb(46, 158, 49);
+}
+.outsidebox{
+    width: 50;
+    height: 300;
+    background-color: rgb(105, 118, 123);
+    border: 1px solid rgb(105, 118, 123);
+    padding: 20px;
+}
+.button{
+    margin-top: 10px;
+    width: 100px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
