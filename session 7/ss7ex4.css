@@ -1,0 +1,27 @@
+.box1{
+    border-left: 5px solid rgb(12, 12, 9);
+    height: 25px;
+    position: relative;
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    position: relative;
+    width: 250px;
+    margin-top: 30px;
+}
+.overlay{
+    position:absolute;
+    bottom: 0;
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+.cross{
+    border: 10px solid black;
+    width: 100px;
+    height: 50px ;
+  
+}

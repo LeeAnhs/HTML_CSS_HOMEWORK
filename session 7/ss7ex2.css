@@ -1,0 +1,15 @@
+.box{
+    border-radius: 1%;
+    border: 1px solid #C6C1D5;
+    height: 150px;
+    width: 200px;
+    padding:20px;
+    text-align: center;
+}
+.box h3{
+    color: #BC2229;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
