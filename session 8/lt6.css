@@ -1,0 +1,35 @@
+.search-form {
+    display: flex; 
+    border-radius: 20px; 
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    background-color: #fff;
+    width: 500px;
+  }
+  
+  .search-input {
+    flex-grow: 1; 
+    border: none; 
+    padding: 8px;
+    border-radius: 20px; /* Góc bo tròn giống form */
+  }
+  
+  .search-button {
+    background-color: transparent; /* Nền trong suốt */
+    border: none; /* Loại bỏ đường viền */
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .mic-button {
+    background-color: transparent; /* Nền trong suốt */
+    border: none; /* Loại bỏ đường viền */
+    padding: 8px;
+    cursor: pointer;
+  }
+  .camera-button {
+    background-color: transparent; /* Nền trong suốt */
+    border: none; /* Loại bỏ đường viền */
+    padding: 8px;
+    cursor: pointer;
+  }

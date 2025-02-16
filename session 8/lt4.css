@@ -72,16 +72,16 @@ body {
 }
 
 .icon {
-    font-size: larger;
+
     position: absolute;
-    width: 70px; /* Kích thước hình thoi */
+    width: 70px;
     height: 70px;
-    border: 2px solid lightgray; /* Viền màu xám */
-    transform: rotate(45deg); /* Xoay hình vuông thành hình thoi */
+    border: 2px solid lightgray;
+    transform: rotate(45deg);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white; /* Nền trắng để tách biệt */
+    background-color: white; 
 }
 
 .icon i {
