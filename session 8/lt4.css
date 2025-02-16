@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+    width: fit-content;
+    
+}
+
+.box-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 22px;
+}
+.box {
+    position: relative;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.text {
+    position: relative;
+    margin-left: 50px;
+}
+.text h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.text p {
+    font-size: 14px;
+    color: gray;
+}
+.icon-container {
+    position: relative;
+    width: 70px; 
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: larger;
+    position: absolute;
+    width: 70px; /* Kích thước hình thoi */
+    height: 70px;
+    border: 2px solid lightgray; /* Viền màu xám */
+    transform: rotate(45deg); /* Xoay hình vuông thành hình thoi */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Nền trắng để tách biệt */
+}
+
+.icon i {
+    font-size: 20px;
+    color: red; 
+    transform: rotate(-45deg);
+}
+
