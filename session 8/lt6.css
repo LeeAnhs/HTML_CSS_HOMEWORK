@@ -11,25 +11,25 @@
     flex-grow: 1; 
     border: none; 
     padding: 8px;
-    border-radius: 20px; /* Góc bo tròn giống form */
+    border-radius: 20px; 
   }
   
   .search-button {
-    background-color: transparent; /* Nền trong suốt */
-    border: none; /* Loại bỏ đường viền */
+    background-color: transparent; 
+    border: none; 
     padding: 8px;
     cursor: pointer;
   }
   
   .mic-button {
-    background-color: transparent; /* Nền trong suốt */
-    border: none; /* Loại bỏ đường viền */
+    background-color: transparent;
+    border: none; 
     padding: 8px;
     cursor: pointer;
   }
   .camera-button {
-    background-color: transparent; /* Nền trong suốt */
-    border: none; /* Loại bỏ đường viền */
+    background-color: transparent; 
+    border: none; 
     padding: 8px;
     cursor: pointer;
   }
