@@ -1,0 +1,36 @@
+section{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 335px;
+    background-color: #F9F9F9;
+    gap:5px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    box-sizing: border-box;
+    
+}
+div{
+    background-color: #3498DB;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.special{
+    flex-grow: 2;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    box-sizing: border-box;
+
+}
